@@ -1,0 +1,46 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Django
+db.sqlite3
+*.sqlite3-journal
+/media/
+*.log
+
+# Django static and media files
+staticfiles/
+media/
+
+# Ignore the folders created by collectstatic
+static/
+
+# Virtual Environment
+venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Node modules (if you are using Node.js for frontend)
+node_modules/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Migrations
+*/migrations/*.py
+!*/migrations/__init__.py
